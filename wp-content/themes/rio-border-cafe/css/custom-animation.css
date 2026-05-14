@@ -1,0 +1,187 @@
+
+/* ## CSS ANIMATIONS
+--------------------------------------------- */
+/*LOGO*/
+
+.site-header .logoContainer img {
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  opacity: 0;
+  transition: all .8s;
+  -webkit-transition: all .8s;
+}
+
+.site-header.inView .logoContainer img{
+  transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  opacity: 1;
+}
+
+/* NAV ITEMS */
+
+@media (min-width: 1200px) {
+  .site-header .nav-primary ul > li {
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    opacity: 0;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+  }
+
+  .site-header .top-tools > li {
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    opacity: 0;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+  }
+
+  .site-header.inView .nav-primary ul > li {
+    transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+
+  .site-header.inView .top-tools > li {
+    transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Home Rows*/
+
+@media (min-width: 1200px) {
+
+  .welcome-row .container > * {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    opacity: 0;
+  }
+
+  .welcome-row.inView .container > * {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .location-row .container > * {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    opacity: 0;
+  }
+
+  .location-row.inView .container > * {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .about-island .wrapper > * {
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transform: translateX(75px);
+    -ms-transform: translateX(75px);
+    -webkit-transform: translateX(75px);
+    opacity: 0;
+  }
+
+  .about-island.inView .wrapper> * {
+    transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    opacity: 1;
+  }
+
+}
+
+/* Our Services */
+
+@media (min-width: 1200px) {
+
+  .review-list > li {
+    transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    opacity: 0;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+  }
+
+  .review-list.inView > li {
+    transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+
+}
+
+/*ABOUT US*/
+
+@media (min-width: 1200px) {
+
+  .stay-loop .wrapper {
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    opacity: 0;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+  }
+
+  .stay-loop.inView .wrapper {
+    transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    opacity: 1;
+  }
+
+  .contact-home .holder {
+    transform: translateX(8%);
+    -ms-transform: translateX(8%);
+    -webkit-transform: translateX(8%);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+
+  .contact-home.inView .holder {
+    transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    opacity: 1;
+  }
+
+}
+
+
+.site-footer #contact-us ul li{
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  opacity: 0;
+  transition: all .8s;
+  -webkit-transition: all .8s;
+}
+
+.site-footer.inView #contact-us ul li{
+  transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  opacity: 1;
+}
