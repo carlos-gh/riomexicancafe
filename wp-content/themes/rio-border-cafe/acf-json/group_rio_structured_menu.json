@@ -1,0 +1,289 @@
+{
+    "key": "group_rio_structured_menu",
+    "title": "Structured Menu",
+    "fields": [
+        {
+            "key": "field_rio_structured_menu_sections",
+            "label": "Menu Sections",
+            "name": "structured_menu_sections",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Top-level menu tabs, such as Gallery, Special, Dinner, Drinks, or Desserts.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_rio_structured_section_name",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Menu Section",
+            "sub_fields": [
+                {
+                    "key": "field_rio_structured_section_name",
+                    "label": "Section Name",
+                    "name": "section_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_rio_structured_section_intro",
+                    "label": "Section Intro",
+                    "name": "section_intro",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Optional intro text for this section.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "rows": 3,
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_rio_structured_menu_categories",
+                    "label": "Menu Categories",
+                    "name": "structured_menu_categories",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Groups inside this section, such as Appetizers, Fajitas, Sides, or Margaritas.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_rio_structured_category_name",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Add Menu Category",
+                    "sub_fields": [
+                        {
+                            "key": "field_rio_structured_category_name",
+                            "label": "Category Name",
+                            "name": "category_name",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "35",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_rio_structured_category_layout",
+                            "label": "Category Layout",
+                            "name": "category_layout",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "standard": "Standard",
+                                "gallery": "Gallery",
+                                "compact": "Compact List"
+                            },
+                            "default_value": "standard",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_rio_structured_category_intro",
+                            "label": "Category Intro",
+                            "name": "category_intro",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "Optional intro text for this category.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "40",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "rows": 3,
+                            "placeholder": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_rio_structured_menu_items",
+                            "label": "Menu Items",
+                            "name": "structured_menu_items",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "Add menu items here. Do not add images or layout markup in descriptions.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "field_rio_structured_item_name",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "row",
+                            "button_label": "Add Menu Item",
+                            "sub_fields": [
+                                {
+                                    "key": "field_rio_structured_item_name",
+                                    "label": "Item Name",
+                                    "name": "item_name",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "35",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
+                                },
+                                {
+                                    "key": "field_rio_structured_item_description",
+                                    "label": "Description",
+                                    "name": "item_description",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "rows": 3,
+                                    "placeholder": "",
+                                    "new_lines": ""
+                                },
+                                {
+                                    "key": "field_rio_structured_item_price",
+                                    "label": "Price",
+                                    "name": "item_price",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "Optional.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "15",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_rio_structured_category_images",
+                            "label": "Category Images",
+                            "name": "category_images",
+                            "aria-label": "",
+                            "type": "gallery",
+                            "instructions": "Optional images for this category. The template controls placement and sizing.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "insert": "append",
+                            "library": "all",
+                            "min": "",
+                            "max": "",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "template-menu-structured.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1770000000
+}

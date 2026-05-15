@@ -294,7 +294,7 @@ get_header(); ?>
             arrows: true,
             breakpoints: {
                 640: {
-                    perPage: 2,
+                    perPage: 1,
                 },
             }
         });
